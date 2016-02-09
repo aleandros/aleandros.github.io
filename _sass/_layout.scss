@@ -16,14 +16,14 @@ $brown-color: #584141;
     border-top: 5px solid #EAE9EA;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: #F8F3FF;
+    background-color: #FBFAFF;
 
     // Positioning context for the mobile navigation icon
     position: relative;
     a {
 	transition: all 0.3s ease-in;
 	&:hover {
-	    text-shadow: 1px 0px 10px #AFAF85;
+	    text-shadow: 1px 0px 5px #C1C1C1;
 	    text-decoration: none;
 	}
     }
