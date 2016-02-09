@@ -5,15 +5,28 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 /**
+ * Custom variables
+ */
+$brown-color: #584141;
+
+/**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid #EAE9EA;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: #F8F3FF;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    a {
+	transition: all 0.3s ease-in;
+	&:hover {
+	    text-shadow: 1px 0px 10px #AFAF85;
+	    text-decoration: none;
+	}
+    }
 }
 
 .site-logo {
@@ -29,12 +42,13 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $brown-color;
     font-family: 'Pacifico', cursive;
 
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $brown-color;
     }
 }
 
@@ -49,6 +63,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+	color: $brown-color;
         font-family: 'Oswald', sans-serif;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
