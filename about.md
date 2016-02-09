@@ -14,7 +14,3 @@ insights I have gained over time about the whats, whys and hows of software deve
 
 Also, if you're reading this, just be sure that I love you. No, seriously, you're amazing
 and beautiful. At the very least you're tolerable but I love you anyway.
-
-Peace,
-
-Edgar Cabrera
