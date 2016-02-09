@@ -1,4 +1,10 @@
 /**
+ * Fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+/**
  * Site header
  */
 .site-header {
@@ -23,6 +29,8 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    font-family: 'Pacifico', cursive;
+
 
     &,
     &:visited {
@@ -41,7 +49,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
+        font-family: 'Oswald', sans-serif;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
