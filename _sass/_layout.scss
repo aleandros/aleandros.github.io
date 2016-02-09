@@ -202,6 +202,7 @@ $brown-color: #584141;
 
 .page-heading {
     font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .post-list {
@@ -209,6 +210,7 @@ $brown-color: #584141;
     list-style: none;
 
     > li {
+	font-family: 'Oswald', sans-serif;
         margin-bottom: $spacing-unit;
     }
 }
@@ -236,6 +238,7 @@ $brown-color: #584141;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    font-family: 'Oswald', sans-serif;
 
     @include media-query($on-laptop) {
         font-size: 36px;
